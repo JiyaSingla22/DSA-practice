@@ -1,0 +1,24 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Build C++ Program",
+      "type": "shell",
+      "command": "g++",
+      "args": [
+        "first.cpp",
+        "-o",
+        "run.exe",
+        "-mconsole"
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": []
+    }
+],
+"configurations": [
+
+]
+}
